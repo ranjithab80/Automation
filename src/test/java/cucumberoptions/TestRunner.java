@@ -1,0 +1,13 @@
+package cucumberoptions;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+import org.junit.runner.RunWith;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features = "src/test/java/features/SignIn.feature", glue = "stepDefinitions")
+//to run specific feature file
+//@CucumberOptions(features="src/test/java/features", glue= "stepDefinitions")
+public class TestRunner {
+
+}
